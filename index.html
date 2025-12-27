@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Div Example</title>
+    <style>
+        /* Make the body full height and remove default margin */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;           /* Use Flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+            background-color: #f0f0f0;
+        }
+
+        /* Style the centered div */
+        .centered-div {
+            width: 300px;
+            height: 200px;
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-div">
+        I'm centered!
+    </div>
+</body>
+</html>
